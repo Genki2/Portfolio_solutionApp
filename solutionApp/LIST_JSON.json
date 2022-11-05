@@ -1,0 +1,125 @@
+  {
+    "success" : [
+      {
+        "children" : [
+          {
+            "updated_at" : "2020-10-15 12:42:30",
+            "pdf_url" : null,
+            "video_url" : null,
+            "title" : null,
+            "id" : 2,
+            "children" : [
+              {
+                "pdf_url" : null,
+                "updated_at" : "2020-11-14 15:46:31",
+                "video_url" : null,
+                "title" : "エアコン関係",
+                "children" : [
+                  {
+                    "pdf_url" :"https://iair-c.com/wp-content/uploads/manual/mitsubishielectric/msz-xd225-255_msz-xd285-565s.pdf",
+                    "title" : "三菱エアコン取説",
+                    "id" : 31,
+                    "updated_at" : "2000-03-10 16:45:11",
+                    "video_url" : null,
+                    "children" : []
+                  },
+                  {
+                    "pdf_url" : null,
+                    "title" : "掃除の仕方（動画）",
+                    "id" : 32,
+                    "updated_at" : "2000-03-10 16:45:11",
+                    "video_url" : "https://www.youtube.com/watch?v=bICbgqMzDyc",
+                    "children" : []
+                  }
+                  ,
+                  {
+                    "pdf_url" : "https://jp.sharp/catalog/pdf/air-aircon.pdf",
+                    "title" : "SHARP カタログ",
+                    "id" : 33,
+                    "updated_at" : "2000-03-10 16:45:11",
+                    "video_url" : null,
+                    "children" : []
+                  }
+                ],
+                "id" : 3
+              },
+              {
+                "pdf_url" : null,
+                "updated_at" : "2020-10-15 12:42:30",
+                "video_url" : null,
+                "title" : "水道関係",
+                "children" : [
+                  {
+                    "pdf_url" : "https://www.city.saitama.jp/001/006/002/043/002/p016671_d/fil/handbook.pdf",
+                    "title" : "さいたま市漏水ガイドブック",
+                    "id" : 41,
+                    "updated_at" : "2000-03-10 16:45:11",
+                    "video_url" : null,
+                    "children" : []
+                  },
+                  {
+                    "pdf_url" : null,
+                    "title" : "メンテナンス方法",
+                    "id" : 42,
+                    "updated_at" : "2000-03-10 16:45:11",
+                    "video_url" : "https://www.youtube.com/watch?v=jQmXWxgOfCw",
+                    "children" : []
+                  }
+                  ,
+                  {
+                    "pdf_url" : null,
+                    "title" : "パッキン交換方法",
+                    "id" : 43,
+                    "updated_at" : "2000-03-10 16:45:11",
+                    "video_url" : "https://www.youtube.com/watch?v=Nw65_8cTdfA",
+                    "children" : []
+                  }
+                ],
+                "id" : 4
+              },
+              {
+                "pdf_url" : null,
+                "updated_at" : "2020-10-15 12:42:30",
+                "video_url" : null,
+                "title" : "パソコン関係",
+                "children" : [
+                  {
+                    "pdf_url" : "https://n-sk.jp/wp/wp-content/uploads/2019/06/%E3%83%91%E3%82%BD%E3%82%B3%E3%83%B3%E3%81%AEIP%E3%82%A2%E3%83%89%E3%83%AC%E3%82%B9%E3%81%AE%E8%AA%BF%E3%81%B9%E6%96%B9.pdf",
+                    "title" : "IP確認手順",
+                    "id" : 51,
+                    "updated_at" : "2000-03-10 16:45:11",
+                    "video_url" : null,
+                    "children" : []
+                  },
+                  {
+                    "pdf_url" : null,
+                    "title" : "WiFi設定",
+                    "id" : 52,
+                    "updated_at" : "2000-03-10 16:45:11",
+                    "video_url" : "https://www.youtube.com/watch?v=4Doy3iwt3gs",
+                    "children" : []
+                  }
+                  ,
+                  {
+                    "pdf_url" : null,
+                    "title" : "初期設定",
+                    "id" : 53,
+                    "updated_at" : "2000-03-10 16:45:11",
+                    "video_url" : "https://www.youtube.com/watch?v=6fYXJetN4xE&t=5s",
+                    "children" : []
+                  }
+                ],
+                "id" : 5
+              }
+            ]
+          }
+        ],
+        "video_url" : null,
+        "title" : null,
+        "updated_at" : "2020-11-14 15:46:31",
+        "id" : 1,
+        "pdf_url" : null
+      }
+    ],
+    "0" : 200
+  }

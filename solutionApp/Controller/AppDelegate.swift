@@ -1,16 +1,14 @@
 //
 //  AppDelegate.swift
-//  solutionApp
+//  SolutionApp
 //
-//  Created by GENKIFUJIMOTO on 2022/11/05.
+//  Created by GENKI Mac on 2021/12/09.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
