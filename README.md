@@ -1,7 +1,5 @@
-# README (Portfolio_solutionApp)
-
-## アプリについて
-困り事の内容をPDFまたは動画で確認できるアプリ！
+# Portfolio_BLEPeripheral
+困り事の内容をPDFまたは動画で確認できるアプリ
 
 ## 機能
 * PDFディレクトリー保存
