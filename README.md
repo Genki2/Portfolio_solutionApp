@@ -1,6 +1,9 @@
 # Portfolio_BLEPeripheral
 困り事の内容をPDFまたは動画で確認できるアプリ
 
+## アーキテクチャ
+MVC
+
 ## 機能
 * PDFディレクトリー保存
 * Json解析
