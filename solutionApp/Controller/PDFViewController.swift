@@ -12,8 +12,8 @@ class PDFViewController: UIViewController,UINavigationControllerDelegate,UISearc
     
     @IBOutlet weak var Seachbar: UISearchBar!
     
-    var pdf_url :String?
-    var top_title :String?
+    var pdfUrl :String?
+    var topTitle :String?
     var DirectoryClass = Directory()
     
     //ページを格納する
@@ -25,7 +25,7 @@ class PDFViewController: UIViewController,UINavigationControllerDelegate,UISearc
         super.viewDidLoad()
         
         //タイトル表示
-        self.navigationItem.title = top_title
+        self.navigationItem.title = topTitle
         
         //デリケート
         navigationController?.delegate = self
@@ -38,10 +38,10 @@ class PDFViewController: UIViewController,UINavigationControllerDelegate,UISearc
         
         let pdfviewDP = PDFView(frame: CGRect(x:0, y:Seachbar.frame.size.height*2, width: view.frame.size.width, height: view.frame.size.height))
         
-        if let pdf_url = pdf_url {
+        if let pdfUrl = pdfUrl {
             
             //PDFをディレクトリーから表示
-            let pdfname = DirectoryClass.createPDFName(URLString: pdf_url)
+            let pdfname = DirectoryClass.createPDFName(URLString: pdfUrl)
             let documentsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] + "/pdf/" + pdfname
             let pdfURL = NSURL(fileURLWithPath: documentsPath)
             
@@ -54,11 +54,10 @@ class PDFViewController: UIViewController,UINavigationControllerDelegate,UISearc
             }
             //PDFをダウンロードしてない場合、ディレクトリーに保存する。初回はダウンロードして表示
             else {
-                
                 //ディレクトリー へ保存処理
-                DirectoryClass.savePDF(URLString: pdf_url)
+                DirectoryClass.savePDFInDir(URLString: pdfUrl)
                 
-                let url = URL(string: pdf_url)!
+                let url = URL(string: pdfUrl)!
                 let data = try! Data(contentsOf: url)
                 let document = PDFDocument(data: data)
                 pdfviewDP.document = document

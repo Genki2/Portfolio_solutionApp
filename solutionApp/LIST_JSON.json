@@ -28,7 +28,7 @@
                     "title" : "掃除の仕方（動画）",
                     "id" : 32,
                     "updated_at" : "2000-03-10 16:45:11",
-                    "video_url" : "https://www.youtube.com/watch?v=bICbgqMzDyc",
+                    "video_url" : "https://www.youtube.com/embed/bICbgqMzDyc",
                     "children" : []
                   }
                   ,
@@ -62,7 +62,7 @@
                     "title" : "メンテナンス方法",
                     "id" : 42,
                     "updated_at" : "2000-03-10 16:45:11",
-                    "video_url" : "https://www.youtube.com/watch?v=jQmXWxgOfCw",
+                    "video_url" : "https://www.youtube.com/embed/jQmXWxgOfCw",
                     "children" : []
                   }
                   ,
@@ -71,7 +71,7 @@
                     "title" : "パッキン交換方法",
                     "id" : 43,
                     "updated_at" : "2000-03-10 16:45:11",
-                    "video_url" : "https://www.youtube.com/watch?v=Nw65_8cTdfA",
+                    "video_url" : "https://www.youtube.com/embed/Nw65_8cTdfA",
                     "children" : []
                   }
                 ],
@@ -96,7 +96,7 @@
                     "title" : "WiFi設定",
                     "id" : 52,
                     "updated_at" : "2000-03-10 16:45:11",
-                    "video_url" : "https://www.youtube.com/watch?v=4Doy3iwt3gs",
+                    "video_url" : "https://www.youtube.com/embed/4Doy3iwt3gs",
                     "children" : []
                   }
                   ,
@@ -105,7 +105,7 @@
                     "title" : "初期設定",
                     "id" : 53,
                     "updated_at" : "2000-03-10 16:45:11",
-                    "video_url" : "https://www.youtube.com/watch?v=6fYXJetN4xE&t=5s",
+                    "video_url" : "https://www.youtube.com/embed/6fYXJetN4xE",
                     "children" : []
                   }
                 ],

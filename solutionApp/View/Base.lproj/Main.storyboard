@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H4G-3z-p13">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -12,7 +11,7 @@
         <!--Home View Controller-->
         <scene sceneID="b3o-iM-w6b">
             <objects>
-                <viewController id="Y9d-H0-Xdo" customClass="HomeViewController" customModule="SolutionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Y9d-H0-Xdo" customClass="HomeViewController" customModule="solutionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TPL-lK-FbY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,7 +63,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="airconBtnTap:" destination="Y9d-H0-Xdo" eventType="touchUpInside" id="jpu-4l-aAy"/>
+                                    <action selector="tappedAirconBtn:" destination="Y9d-H0-Xdo" eventType="touchUpInside" id="znR-Ji-XT6"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCt-ja-XzS">
@@ -75,7 +74,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="watarBtnTap:" destination="Y9d-H0-Xdo" eventType="touchUpInside" id="dlA-aE-Ot5"/>
+                                    <action selector="tappedWatarBtn:" destination="Y9d-H0-Xdo" eventType="touchUpInside" id="1cX-dL-w7G"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gB-lL-27V">
@@ -86,7 +85,7 @@
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="pcBtnTap:" destination="Y9d-H0-Xdo" eventType="touchUpInside" id="o1m-8x-5rH"/>
+                                    <action selector="tappedPcBtn:" destination="Y9d-H0-Xdo" eventType="touchUpInside" id="p9U-GN-7fD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -140,7 +139,7 @@
         <!--Lists View Controller-->
         <scene sceneID="Gxd-qy-xAy">
             <objects>
-                <viewController storyboardIdentifier="Lists" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="XB9-v2-Q6s" customClass="ListsViewController" customModule="SolutionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Lists" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="XB9-v2-Q6s" customClass="ListsViewController" customModule="solutionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8FR-HI-4Li">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -173,7 +172,7 @@
         <!--Movie View Controller-->
         <scene sceneID="q3r-vK-AqW">
             <objects>
-                <viewController storyboardIdentifier="Movie" id="sRl-gr-PWB" customClass="MovieViewController" customModule="SolutionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Movie" id="sRl-gr-PWB" customClass="MovieViewController" customModule="solutionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wPk-ws-dWQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -189,7 +188,7 @@
         <!--View Controller-->
         <scene sceneID="X69-2x-M1u">
             <objects>
-                <viewController storyboardIdentifier="PDF" id="0HB-69-C2s" customClass="PDFViewController" customModule="SolutionApp" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PDF" id="0HB-69-C2s" customClass="PDFViewController" customModule="solutionApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jx1-Gh-3pt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

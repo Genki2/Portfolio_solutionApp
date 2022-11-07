@@ -99,8 +99,8 @@ class ListsViewController: UIViewController, UITableViewDelegate, UITableViewDat
             guard let pdfviewController = self.storyboard?.instantiateViewController(withIdentifier:"PDF") as? PDFViewController else { return }
             
             //PDFURLを渡す
-            pdfviewController.pdf_url = childIDs[indexPath.row].pdf_url
-            pdfviewController.top_title = childIDs[indexPath.row].title!
+            pdfviewController.pdfUrl = childIDs[indexPath.row].pdf_url
+            pdfviewController.topTitle = childIDs[indexPath.row].title!
             
             //画面遷移
             self.navigationController?.pushViewController(pdfviewController,animated: true)

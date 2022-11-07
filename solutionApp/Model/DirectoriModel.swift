@@ -30,8 +30,8 @@ class Directory {
         return files
     }
     
-    //pdf保存
-    func savePDF(URLString:String){
+    //pdfをディレクトリーに保存
+    func savePDFInDir(URLString:String){
         
         let PDFUrl = NSURL(string: URLString)
         let pdfname = (URLString as NSString).lastPathComponent

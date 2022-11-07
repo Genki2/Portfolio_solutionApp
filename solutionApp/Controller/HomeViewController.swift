@@ -9,7 +9,7 @@ import UIKit
 
 class HomeViewController: UIViewController {
     
-    var selct_id = 0
+    var selctId = 0
     var Getlist:[ListItem] = []
     var Listclass = ListModel()
 
@@ -27,12 +27,12 @@ class HomeViewController: UIViewController {
         }
     }
     
-    @IBAction func airconBtnTap(_ sender: Any) {
-        selct_id = 3
+    @IBAction func tappedAirconBtn(_ sender: Any) {
+        selctId = 3
         
         guard let listviewController = self.storyboard?.instantiateViewController(withIdentifier:"Lists") as? ListsViewController else { return }
         
-        if let Post = Listclass.getListItem(id: selct_id, list: Getlist) {
+        if let Post = Listclass.getListItem(id: selctId, list: Getlist) {
             
             listviewController.childIDs = Post.children
             listviewController.top_title = Post.title!
@@ -42,12 +42,12 @@ class HomeViewController: UIViewController {
     }
     
     
-    @IBAction func watarBtnTap(_ sender: Any) {
-        selct_id = 4
+    @IBAction func tappedWatarBtn(_ sender: Any) {
+        selctId = 4
         
         guard let listviewController = self.storyboard?.instantiateViewController(withIdentifier:"Lists") as? ListsViewController else { return }
         
-        if let Post = Listclass.getListItem(id: selct_id, list: Getlist) {
+        if let Post = Listclass.getListItem(id: selctId, list: Getlist) {
             
             listviewController.childIDs = Post.children
             listviewController.top_title = Post.title!
@@ -57,13 +57,12 @@ class HomeViewController: UIViewController {
     }
     
     
-    @IBAction func pcBtnTap(_ sender: Any) {
-        
-        selct_id = 5
+    @IBAction func tappedPcBtn(_ sender: Any) {
+        selctId = 5
         
         guard let listviewController = self.storyboard?.instantiateViewController(withIdentifier:"Lists") as? ListsViewController else { return }
         
-        if let Post = Listclass.getListItem(id: selct_id, list: Getlist) {
+        if let Post = Listclass.getListItem(id: selctId, list: Getlist) {
             
             listviewController.childIDs = Post.children
             listviewController.top_title = Post.title!

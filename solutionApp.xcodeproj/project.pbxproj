@@ -72,9 +72,9 @@
 		379482C329168CE6000A5A0C /* solutionApp */ = {
 			isa = PBXGroup;
 			children = (
-				379482D829168D0E000A5A0C /* Controller */,
 				379482DF29168D0E000A5A0C /* Model */,
 				379482E229168D0F000A5A0C /* View */,
+				379482D829168D0E000A5A0C /* Controller */,
 				379482CD29168CE8000A5A0C /* Assets.xcassets */,
 				379482F229168D34000A5A0C /* LIST_JSON.json */,
 				379482CF29168CE8000A5A0C /* LaunchScreen.storyboard */,
@@ -89,8 +89,8 @@
 				379482D929168D0E000A5A0C /* MovieViewController.swift */,
 				379482DA29168D0E000A5A0C /* PDFViewController.swift */,
 				379482DB29168D0E000A5A0C /* HomeViewController.swift */,
-				379482DC29168D0E000A5A0C /* AppDelegate.swift */,
 				379482DD29168D0E000A5A0C /* ListsViewController.swift */,
+				379482DC29168D0E000A5A0C /* AppDelegate.swift */,
 				379482DE29168D0E000A5A0C /* SceneDelegate.swift */,
 			);
 			path = Controller;
